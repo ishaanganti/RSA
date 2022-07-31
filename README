@@ -1,0 +1,6 @@
+This RSA recreation involves 3 scripts. RSA_RECIEVER is to be run first. It will generate the public key along with some more information and write this all to two files.
+This first is "ReceiverOnly.txt," which is meant to represent information only accessible to the receiver. The second is "ReceiverToSender.txt," which is more easily
+accessible by others. 
+
+Then, the RSASENDER script is to be run, and it will require a "SenderToReceiver.txt" file. Lastly, the DECODED file is to be run. Messages must be short enough to be
+encrypted fully and must be converted to ASCII prior to encryption. 
