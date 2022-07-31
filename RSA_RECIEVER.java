@@ -3,8 +3,6 @@ import java.math.*;
 import java.io.FileWriter;  
 import java.io.IOException;  
 
-//aditya prerepa likes children lol
-
 public class RSA_RECIEVER {
 	public static void main(String[] args) {
 		long e = 257; //public key p1
