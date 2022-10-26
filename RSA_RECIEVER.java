@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class RSA_RECIEVER {
 	public static void main(String[] args) {
-		long e = 257; //public key p1
+		long e = 257; //public key p1; current value is sort of arbitrary but frequently used. 
 		long p = (long)GeneratePrime(26, 6); //bit size, k
 		long q = (long)GeneratePrime(26, 6); //bit size, k
 		long n = p*q; //public key p2
